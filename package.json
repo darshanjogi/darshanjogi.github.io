@@ -1,7 +1,7 @@
 {
-  "name": "@darshanjogi/my-private-package",
+  "name": "some-private-package",
   "version": "1.0.0",
-  "description": "A private package with post-install message",
+  "description": "A private package with post-install message has confidential data",
   "main": "index.js",
   "scripts": {
     "postinstall": "node postinstall.js"
