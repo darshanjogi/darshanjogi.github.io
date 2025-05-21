@@ -1,4 +1,21 @@
 {
+  "name": "@darshanjogi/my-private-package",
+  "version": "1.0.0",
+  "description": "A private package with post-install message",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "node postinstall.js"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darshanjogi/my-private-package.git"
+  }
+}
+
+{
   "name": "my-v0-project",
   "version": "0.1.0",
   "private": true,
